@@ -1,0 +1,53 @@
+.app {
+  background: linear-gradient(to bottom, #157790, #41c1de);
+  color: white;
+  height: 100vh;
+}
+
+.input:hover {
+  box-shadow: 0px 0px 5px #397785;
+}
+.input {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main {
+  box-shadow: 0px 0px 10px #6dd5ed;
+  padding: 20px;
+}
+
+.side {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.error {
+  /* Add some padding and margin to the error message */
+  padding: 10px;
+  margin: 10px;
+
+  /* Change the font color to red */
+  color: red;
+
+  /* Add a background color to the error message */
+  background-color: #f8d7da;
+
+  /* Add a border to the error message */
+  border: 1px solid red;
+
+  /* Change the font size */
+  font-size: 1.2rem;
+
+  /* Add text align center */
+  text-align: center;
+}
